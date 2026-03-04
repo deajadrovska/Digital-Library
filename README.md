@@ -47,3 +47,8 @@ Then open `index.html` via WebStorm's Live Server.
 ## Requirements
 - Node.js (to run scan.js)
 - WebStorm Live Server or VS Code Live Server (to open index.html)
+
+## Team
+Dea Jadrovska
+Blerona Mulladauti
+Engjell Vlashi
