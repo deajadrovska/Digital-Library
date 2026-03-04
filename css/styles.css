@@ -299,3 +299,19 @@ footer {
 @media (max-width: 600px) {
   .grid { grid-template-columns: 1fr; padding: 32px 16px 60px; }
 }
+.download-btn{
+  margin-top: 16px;
+  width: 100%;
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+  cursor: pointer;
+}
+.download-btn:hover{
+  filter: brightness(1.05);
+}
+
+

@@ -4,6 +4,8 @@
    ============================================= */
 
 let allLogos = [];
+let currentLogo = null;
+
 
 document.addEventListener('DOMContentLoaded', () => {
   loadLogos();
@@ -89,13 +91,27 @@ function setupModal() {
 }
 
 function openModal(logo) {
-  document.getElementById('modal-img').src           = `images/${logo.filename}`;
+  document.getElementById('modal-img').src           = `images/${logo.filename}`; 
+  const downloadBtn = document.getElementById('download-btn');
+  const imagePath = `images/${logo.filename}`;
+
+  // Force-download the currently opened image
+  downloadBtn.onclick = () => {
+    const a = document.createElement('a');
+    a.href = imagePath;
+    a.download = logo.filename; // suggested filename
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+  };
   document.getElementById('modal-num').textContent   = `VARIANT ${logo.num}`;
   document.getElementById('modal-title').textContent = `Variant ${logo.num}`;
   document.getElementById('modal-tags').innerHTML    = logo.tags.map(t => `<span class="tag">${t}</span>`).join('');
   document.getElementById('modal').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
+
+
 
 function closeModal() {
   document.getElementById('modal').classList.remove('open');
