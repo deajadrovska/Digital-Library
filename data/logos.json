@@ -1,0 +1,99 @@
+[
+  {
+    "num": "01",
+    "filename": "logo1.png",
+    "tags": [
+      "minimal",
+      "blue",
+      "flat"
+    ]
+  },
+  {
+    "num": "02",
+    "filename": "logo2.png",
+    "tags": [
+      "modern",
+      "flat"
+    ]
+  },
+  {
+    "num": "03",
+    "filename": "logo3.png",
+    "tags": [
+      "bold",
+      "blue",
+      "security"
+    ]
+  },
+  {
+    "num": "04",
+    "filename": "logo4.png",
+    "tags": [
+      "minimal",
+      "geometric"
+    ]
+  },
+  {
+    "num": "05",
+    "filename": "logo5.png",
+    "tags": [
+      "modern",
+      "purple",
+      "flat"
+    ]
+  },
+  {
+    "num": "06",
+    "filename": "logo6.png",
+    "tags": [
+      "bold",
+      "geometric",
+      "blue"
+    ]
+  },
+  {
+    "num": "07",
+    "filename": "logo7.png",
+    "tags": [
+      "dark",
+      "modern",
+      "neon"
+    ]
+  },
+  {
+    "num": "08",
+    "filename": "logo8.png",
+    "tags": [
+      "dark",
+      "bold",
+      "security"
+    ]
+  },
+  {
+    "num": "09",
+    "filename": "logo9.png",
+    "tags": [
+      "minimal",
+      "geometric",
+      "blue"
+    ]
+  },
+  {
+    "num": "10",
+    "filename": "logo10.png",
+    "tags": [
+      "modern",
+      "blue",
+      "illustrative"
+    ]
+  },
+  {
+    "num": "11",
+    "filename": "logo11.png",
+    "tags": [
+      "minimal",
+      "geometric",
+      "blue"
+    ]
+  }
+]
