@@ -49,6 +49,6 @@ Then open `index.html` via WebStorm's Live Server.
 - WebStorm Live Server or VS Code Live Server (to open index.html)
 
 ## Team
-Dea Jadrovska
-Blerona Mulladauti
-Engjell Vlashi
+- Dea Jadrovska
+- Blerona Mulladauti
+- Engjell Vlashi
