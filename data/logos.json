@@ -104,5 +104,43 @@
       "illustrative",
       "blue"
     ]
+  },
+  {
+    "num": "13",
+    "filename": "logo13.png",
+    "tags": [
+      "minimal",
+      "modern",
+      "blue",
+      "illustrative"
+    ]
+  },
+  {
+    "num": "14",
+    "filename": "logo14.png",
+    "tags": [
+      "minimal",
+      "modern",
+      "blue",
+      "illustrative"
+    ]
+  },
+  {
+    "num": "15",
+    "filename": "logo15.png",
+    "tags": [
+      "modern",
+      "blue"
+    ]
+  },
+  {
+    "num": "16",
+    "filename": "logo16.png",
+    "tags": [
+      "minimal",
+      "modern",
+      "blue",
+      "illustrative"
+    ]
   }
 ]
